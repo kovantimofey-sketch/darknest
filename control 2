@@ -1,0 +1,9 @@
+Package: com.user.darkicons
+Name: DarkIcons
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Description: Darkens all home screen icons (iOS 18 dark-style test tweak)
+Maintainer: user
+Author: user
+Section: Tweaks
+Depends: mobilesubstrate
