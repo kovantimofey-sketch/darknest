@@ -45,7 +45,7 @@ static NSArray *invertHueFilters(void) {
 
 // Средняя яркость по краю иконки (0..1), прозрачные углы пропускаются
 static CGFloat edgeLuminance(CALayer *layer, CGSize size) {
-    const int N = 16;
+    enum { N = 16 };
     uint8_t buf[N * N * 4];
     memset(buf, 0, sizeof(buf));
 
